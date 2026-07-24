@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/plot/CMakeFiles/opencv_plot.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/plot/include/opencv2/plot.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/plot/src/plot.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/plot/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/plot/CMakeFiles/opencv_plot.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/plot/CMakeFiles/opencv_plot.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_plot",
+			"Module"
+		],
+		"name" : "opencv_plot"
+	}
+}

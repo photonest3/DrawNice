@@ -1,0 +1,10 @@
+^E:\VOY\102\THIRD\OPENCV\OPENCV-4.8.0\3RDPARTY\LIBWEBP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/3rdparty/libwebp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

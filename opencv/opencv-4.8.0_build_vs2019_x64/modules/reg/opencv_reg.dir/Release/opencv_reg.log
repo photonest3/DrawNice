@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/CMakeLists.txt
+  cmake_pch.cxx
+  map.cpp
+  mapaffine.cpp
+  mapper.cpp
+  mappergradaffine.cpp
+  mappergradeuclid.cpp
+  mappergradproj.cpp
+  mappergradshift.cpp
+  mappergradsimilar.cpp
+  mapperpyramid.cpp
+  mapprojec.cpp
+  mapshift.cpp
+  opencv_reg.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_reg480.lib

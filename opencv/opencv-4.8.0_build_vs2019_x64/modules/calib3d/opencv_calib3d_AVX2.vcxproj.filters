@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\calib3d\undistort.avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37BD2D1E-172C-4615-A5E9-4E64F4A30606}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>photol</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>photol</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\PhotoNest\tests\cefclient\Release\bin\</OutDir>
+    <IntDir>..\..\..\PhotoNest\tests\photol.dir\</IntDir>
+    <IncludePath>..\..\..\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1;..\..\..\third\libmediainfo_AllInclusive\MediaInfoLib\Source;..\..\..\third\libmediainfo_AllInclusive\ZenLib\Source;..\..\..\third\osg-3rdparty-cmake-master\giflib;..\..\..\third\opencv\opencv-4.8.0_build_vs2019_x64\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\third\opencv\opencv-4.8.0_build_vs2019_x64\install\x64\vc16\staticlib;..\..\..\PhotoNest\tests\cefclient\Release\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>xcopy $(TargetDir)$(ProjectName).dll E:\voy\102\PhotoNest\PhotoNest\nest1\ /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Blowfish.h" />
+    <ClInclude Include="photol.h" />
+    <ClInclude Include="cvui.h" />
+    <ClInclude Include="lang2.h" />
+    <ClInclude Include="lunasvg.h" />
+    <ClInclude Include="myinpaint.h" />
+    <ClInclude Include="paint.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="unitil2.h" />
+    <ClInclude Include="unitil3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Blowfish.cpp" />
+    <ClCompile Include="photol.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="lang2.cpp" />
+    <ClCompile Include="myinpaint.cpp" />
+    <ClCompile Include="paint_about.cpp" />
+    <ClCompile Include="paint_btn.cpp" />
+    <ClCompile Include="paint_clip.cpp" />
+    <ClCompile Include="paint_draw.cpp" />
+    <ClCompile Include="paint_move.cpp" />
+    <ClCompile Include="paint_ot.cpp" />
+    <ClCompile Include="paint_pt.cpp" />
+    <ClCompile Include="paint_sticker.cpp" />
+    <ClCompile Include="paint_text.cpp" />
+    <ClCompile Include="paint_ui.cpp" />
+    <ClCompile Include="paint_filter.cpp" />
+    <ClCompile Include="paint_init.cpp" />
+    <ClCompile Include="paint_main.cpp" />
+    <ClCompile Include="paint_mouse.cpp" />
+    <ClCompile Include="paint_display.cpp" />
+    <ClCompile Include="paint_ui_inp.cpp" />
+    <ClCompile Include="paint_ui_tips.cpp" />
+    <ClCompile Include="paint_utils.cpp" />
+    <ClCompile Include="paint_utils2.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="unitil2.cpp" />
+    <ClCompile Include="unitil3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="photol.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bmp\art.bmp" />
+    <Image Include="bmp\crop_11_14.bmp" />
+    <Image Include="bmp\crop_11_18.bmp" />
+    <Image Include="bmp\crop_169_14.bmp" />
+    <Image Include="bmp\crop_169_18.bmp" />
+    <Image Include="bmp\crop_32_14.bmp" />
+    <Image Include="bmp\crop_32_18.bmp" />
+    <Image Include="bmp\crop_43_14.bmp" />
+    <Image Include="bmp\crop_43_18.bmp" />
+    <Image Include="bmp\crop_54_14.bmp" />
+    <Image Include="bmp\crop_54_18.bmp" />
+    <Image Include="bmp\crop_75_14.bmp" />
+    <Image Include="bmp\crop_75_18.bmp" />
+    <Image Include="bmp\cutout2.ico" />
+    <Image Include="bmp\down_14.bmp" />
+    <Image Include="bmp\down_18.bmp" />
+    <Image Include="bmp\info.bmp" />
+    <Image Include="bmp\inp_sample.bmp" />
+    <Image Include="bmp\item.bmp" />
+    <Image Include="bmp\loader.bmp" />
+    <Image Include="bmp\mp3.bmp" />
+    <Image Include="bmp\mp4.bmp" />
+    <Image Include="bmp\painttext.bmp" />
+    <Image Include="bmp\seg_sample.bmp" />
+    <Image Include="bmp\sticker_sample.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cur\tool-crop.cur" />
+    <None Include="cur\tool-cursor.cur" />
+    <None Include="cur\tool-ellipse.cur" />
+    <None Include="cur\tool-eraser.cur" />
+    <None Include="cur\tool-fill.cur" />
+    <None Include="cur\tool-free-select.cur" />
+    <None Include="cur\tool-fuzzy-select.cur" />
+    <None Include="cur\tool-gc_bgd.cur" />
+    <None Include="cur\tool-gc_fgd.cur" />
+    <None Include="cur\tool-hand.cur" />
+    <None Include="cur\tool-mosaic.cur" />
+    <None Include="cur\tool-move.cur" />
+    <None Include="cur\tool-paintbrush.cur" />
+    <None Include="cur\tool-painttext.cur" />
+    <None Include="cur\tool-pencil.cur" />
+    <None Include="cur\tool-picker.cur" />
+    <None Include="cur\tool-rect-select.cur" />
+    <None Include="cur\tool-select.cur" />
+    <None Include="svg\about.svg" />
+    <None Include="svg\arrow-narrow-right.svg" />
+    <None Include="svg\bgd-gray.svg" />
+    <None Include="svg\check2.svg" />
+    <None Include="svg\close-over.svg" />
+    <None Include="svg\cut.svg" />
+    <None Include="svg\dialog-information-symbolic.svg" />
+    <None Include="svg\dialog-warning-symbolic.svg" />
+    <None Include="svg\document-save-symbolic.svg" />
+    <None Include="svg\dots-vertical.svg" />
+    <None Include="svg\draw-ellipse.svg" />
+    <None Include="svg\draw-rect.svg" />
+    <None Include="svg\draw-select.svg" />
+    <None Include="svg\edit-copy-symbolic.svg" />
+    <None Include="svg\edit-paste-symbolic.svg" />
+    <None Include="svg\edit-redo-symbolic.svg" />
+    <None Include="svg\edit-undo-symbolic.svg" />
+    <None Include="svg\fgd-gray.svg" />
+    <None Include="svg\gear-fill.svg" />
+    <None Include="svg\gimp-center-symbolic.svg" />
+    <None Include="svg\gimp-cursor-symbolic.svg" />
+    <None Include="svg\gimp-curve-point-smooth-symbolic.svg" />
+    <None Include="svg\gimp-image-reload-symbolic.svg" />
+    <None Include="svg\gimp-opaque.svg" />
+    <None Include="svg\gimp-paste-as-new-symbolic.svg" />
+    <None Include="svg\gimp-reset-symbolic.svg" />
+    <None Include="svg\gimp-rotate-180-symbolic.svg" />
+    <None Include="svg\gimp-selection-add-symbolic.svg" />
+    <None Include="svg\gimp-selection-replace-symbolic.svg" />
+    <None Include="svg\gimp-tool-bucket-fill-symbolic.svg" />
+    <None Include="svg\gimp-tool-color-balance-symbolic.svg" />
+    <None Include="svg\gimp-tool-color-picker-symbolic.svg" />
+    <None Include="svg\gimp-tool-crop-symbolic.svg" />
+    <None Include="svg\gimp-tool-eraser-symbolic.svg" />
+    <None Include="svg\gimp-tool-foreground-select-symbolic.svg" />
+    <None Include="svg\gimp-tool-free-select.svg" />
+    <None Include="svg\gimp-tool-fuzzy-select-symbolic.svg" />
+    <None Include="svg\gimp-tool-heal-symbolic.svg" />
+    <None Include="svg\gimp-tool-mypaint-brush-symbolic.svg" />
+    <None Include="svg\gimp-tool-options-symbolic.svg" />
+    <None Include="svg\gimp-tool-paintbrush-symbolic.svg" />
+    <None Include="svg\gimp-tool-pencil-symbolic.svg" />
+    <None Include="svg\gimp-tool-rect-select-symbolic.svg" />
+    <None Include="svg\gimp-tool-rotate-symbolic.svg" />
+    <None Include="svg\gimp-tool-seamless-clone-symbolic.svg" />
+    <None Include="svg\gimp-tool-text-symbolic.svg" />
+    <None Include="svg\gimp-tool-unified-transform-symbolic.svg" />
+    <None Include="svg\go-down-symbolic.svg" />
+    <None Include="svg\go-next-symbolic.svg" />
+    <None Include="svg\go-previous-symbolic.svg" />
+    <None Include="svg\gtk-ok-symbolic.svg" />
+    <None Include="svg\gtk-ok.svg" />
+    <None Include="svg\gtk-select-font-symbolic.svg" />
+    <None Include="svg\hand.svg" />
+    <None Include="svg\help-about-symbolic.svg" />
+    <None Include="svg\home.svg" />
+    <None Include="svg\info-lg.svg" />
+    <None Include="svg\list-add-symbolic.svg" />
+    <None Include="svg\list-remove-symbolic.svg" />
+    <None Include="svg\media-floppy-symbolic.svg" />
+    <None Include="svg\media-playback-start-symbolic.svg" />
+    <None Include="svg\minus.svg" />
+    <None Include="svg\mosaic.svg" />
+    <None Include="svg\object-flip-horizontal-symbolic.svg" />
+    <None Include="svg\object-flip-vertical-symbolic.svg" />
+    <None Include="svg\object-rotate-left-symbolic.svg" />
+    <None Include="svg\object-rotate-right-symbolic.svg" />
+    <None Include="svg\fgd.svg" />
+    <None Include="svg\open.svg" />
+    <None Include="svg\optimization.svg" />
+    <None Include="svg\right.svg" />
+    <None Include="svg\save-as.svg" />
+    <None Include="svg\save.svg" />
+    <None Include="svg\sky.svg" />
+    <None Include="svg\upper-right-arrow.svg" />
+    <None Include="svg\view-refresh-symbolic.svg" />
+    <None Include="svg\window-close-symbolic.svg" />
+    <None Include="svg\zoom-in-symbolic.svg" />
+    <None Include="svg\zoom-out-symbolic.svg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\x64\Release\opencv_dnn_plugins</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\x64\Release\opencv_highgui_plugins</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\bin\Release\opencv_version.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\bin\Release\opencv_version_win32.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\x64\Release\opencv_videoio_plugins</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

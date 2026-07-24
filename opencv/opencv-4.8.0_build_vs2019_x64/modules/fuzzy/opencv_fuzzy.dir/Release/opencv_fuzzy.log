@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/CMakeLists.txt
+  cmake_pch.cxx
+  fuzzy_F0_math.cpp
+  fuzzy_F1_math.cpp
+  fuzzy_image.cpp
+  opencv_fuzzy.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_fuzzy480.lib

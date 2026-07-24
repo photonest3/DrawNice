@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/features2d/CMakeLists.txt
+  sift.avx512_skx.cpp
+  opencv_features2d_AVX512_SKX.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\features2d\opencv_features2d_AVX512_SKX.dir\Release\opencv_features2d_AVX512_SKX.lib

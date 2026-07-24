@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/ml/CMakeLists.txt
+  cmake_pch.cxx
+  ann_mlp.cpp
+  boost.cpp
+  data.cpp
+  em.cpp
+  gbt.cpp
+  inner_functions.cpp
+  kdtree.cpp
+  knearest.cpp
+  lr.cpp
+  nbayes.cpp
+  rtrees.cpp
+  svm.cpp
+  svmsgd.cpp
+  testset.cpp
+  tree.cpp
+  opencv_ml.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_ml480.lib

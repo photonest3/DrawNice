@@ -1,0 +1,237 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/reg/CMakeFiles/opencv_reg.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/map.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mapaffine.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mapper.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mappergradaffine.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mappergradeuclid.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mappergradproj.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mappergradshift.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mappergradsimilar.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mapperpyramid.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mapprojec.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/include/opencv2/reg/mapshift.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/map.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mapaffine.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mapper.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mappergradaffine.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mappergradeuclid.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mappergradproj.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mappergradshift.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mappergradsimilar.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mapperpyramid.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mapprojec.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/mapshift.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/reg/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_reg",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/reg/CMakeFiles/opencv_reg.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/reg/CMakeFiles/opencv_reg.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_reg",
+			"Module"
+		],
+		"name" : "opencv_reg"
+	}
+}

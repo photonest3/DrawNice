@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\src\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\src\quirc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\src\version_db.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\include\quirc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\include\quirc_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\quirc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5EE8F949-7AAC-333C-A966-8111F3D36AC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

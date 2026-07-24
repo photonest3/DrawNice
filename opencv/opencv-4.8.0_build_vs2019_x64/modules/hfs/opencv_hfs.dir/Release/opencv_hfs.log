@@ -1,0 +1,9 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/hfs/CMakeLists.txt
+  cmake_pch.cxx
+  hfs.cpp
+  hfs_core.cpp
+  magnitude.cpp
+  merge.cpp
+  gslic_engine.cpp
+  slic.cpp
+  opencv_hfs.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_hfs480.lib

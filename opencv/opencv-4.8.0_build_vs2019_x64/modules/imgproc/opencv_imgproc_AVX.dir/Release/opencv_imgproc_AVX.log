@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgproc/CMakeLists.txt
+  corner.avx.cpp
+  accum.avx.cpp
+  opencv_imgproc_AVX.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX.dir\Release\opencv_imgproc_AVX.lib

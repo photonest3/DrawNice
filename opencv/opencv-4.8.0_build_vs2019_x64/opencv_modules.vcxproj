@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{637D14ED-9715-3EC4-9439-DBB8BC4D3477}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_modules</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCRTLinkage.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCompilerOptimizations.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCompilerOptions.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectCXXCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectDirectX.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectFlatbuffers.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectOpenCL.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectPython.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectTrace.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDownload.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVExtraTargets.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindFrameworks.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLAPACK.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsGUI.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsGrfmt.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsPerf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsVideo.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindMKL.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindOpenBLAS.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindProtobuf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenABI.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenAndroidMK.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenConfig.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenHeaders.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenSetupVars.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVInstallLayout.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVMinDepVersions.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVModule.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVPCHSupport.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVPackaging.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVUtils.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVVersion.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\directx.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\opencl.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\win32uitest.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\platforms\OpenCV-Windows.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig-version.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cmake_uninstall.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\custom_hal.hpp.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cv_cpu_config.h.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cvconfig.h.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\opencv_modules.hpp.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\setup_vars_win32.cmd.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\vars\EnableModeVars.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include\opencv2\core\version.hpp;E:\voy\102\third\opencv\opencv-4.8.0\modules\dnn\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\gapi\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\highgui\cmake\detect_win32ui.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\highgui\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_dc1394.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_gstreamer.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_msmf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_obsensor.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeCCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeCXXCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeRCCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeSystem.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\julia\cmake\init.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\matlab\cmake\init.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\text\cmake\FindTesseract.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\text\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCRTLinkage.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCompilerOptimizations.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVCompilerOptions.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectCXXCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectDirectX.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectFlatbuffers.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectOpenCL.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectPython.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDetectTrace.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVDownload.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVExtraTargets.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindFrameworks.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLAPACK.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsGUI.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsGrfmt.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsPerf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindLibsVideo.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindMKL.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindOpenBLAS.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVFindProtobuf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenABI.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenAndroidMK.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenConfig.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenHeaders.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVGenSetupVars.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVInstallLayout.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVMinDepVersions.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVModule.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVPCHSupport.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVPackaging.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVUtils.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\OpenCVVersion.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\directx.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\opencl.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\checks\win32uitest.cpp;E:\voy\102\third\opencv\opencv-4.8.0\cmake\platforms\OpenCV-Windows.cmake;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig-version.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cmake_uninstall.cmake.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\custom_hal.hpp.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cv_cpu_config.h.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\cvconfig.h.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\opencv_modules.hpp.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\templates\setup_vars_win32.cmd.in;E:\voy\102\third\opencv\opencv-4.8.0\cmake\vars\EnableModeVars.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include\opencv2\core\version.hpp;E:\voy\102\third\opencv\opencv-4.8.0\modules\dnn\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\gapi\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\highgui\cmake\detect_win32ui.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\highgui\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_dc1394.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_gstreamer.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_msmf.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\detect_obsensor.cmake;E:\voy\102\third\opencv\opencv-4.8.0\modules\videoio\cmake\init.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeCCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeCXXCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeRCCompiler.cmake;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\3.22.0\CMakeSystem.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\julia\cmake\init.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\matlab\cmake\init.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\text\cmake\FindTesseract.cmake;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\text\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\ZERO_CHECK.vcxproj">
+      <Project>{36361299-603D-3D8B-836A-4ECBB0E38EE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\aruco\opencv_aruco.vcxproj">
+      <Project>{E66C5FB5-5746-37B4-802D-D63890BDD8DA}</Project>
+      <Name>opencv_aruco</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\bioinspired\opencv_bioinspired.vcxproj">
+      <Project>{9AF33699-C5ED-3BAD-9FBD-F9950228DA34}</Project>
+      <Name>opencv_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{9CF41AEF-8CEB-324B-BBEE-012D730460D9}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\ccalib\opencv_ccalib.vcxproj">
+      <Project>{B8AD5710-538F-38AA-9189-141D0C66A1D5}</Project>
+      <Name>opencv_ccalib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core.vcxproj">
+      <Project>{CD49C581-0002-3C2C-B5A1-E9BE7798220D}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets\opencv_datasets.vcxproj">
+      <Project>{21234BBF-B09D-3F62-9E61-9FF10B665B91}</Project>
+      <Name>opencv_datasets</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\dpm\opencv_dpm.vcxproj">
+      <Project>{C263A578-041A-36D8-BA3F-31332CFA8E60}</Project>
+      <Name>opencv_dpm</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\face\opencv_face.vcxproj">
+      <Project>{38DF2C41-8149-390F-886B-211B2DE4878F}</Project>
+      <Name>opencv_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{B6B98738-2A77-3E6B-9D51-27712089EA79}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\flann\opencv_flann.vcxproj">
+      <Project>{FB402828-1E8D-3982-A586-692D06676F14}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\fuzzy\opencv_fuzzy.vcxproj">
+      <Project>{FB987CF7-AA5E-35E8-9FBB-A51875B291E9}</Project>
+      <Name>opencv_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\hfs\opencv_hfs.vcxproj">
+      <Project>{31C71C8E-0A85-36E3-BAFA-9642F36EC9D2}</Project>
+      <Name>opencv_hfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{2BBCFD81-6F6F-3739-8BA8-593801F2BB48}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\img_hash\opencv_img_hash.vcxproj">
+      <Project>{6C77041B-C77C-3780-B58C-4AD57A5D2819}</Project>
+      <Name>opencv_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{DA9589E8-4B8E-39B5-8D97-001ECCBF2DCF}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{A2B1280C-8DD5-3B29-9324-FCD286CD1983}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\intensity_transform\opencv_intensity_transform.vcxproj">
+      <Project>{0BDA5640-3C91-38A1-94AC-08391614D682}</Project>
+      <Name>opencv_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\line_descriptor\opencv_line_descriptor.vcxproj">
+      <Project>{8543948C-2B20-34C8-B10E-C3B89467B590}</Project>
+      <Name>opencv_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\ml\opencv_ml.vcxproj">
+      <Project>{B8BF33DD-7F66-3DB5-BF98-528623AD6DFB}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{3C513026-2531-39F1-81F3-1538536DA385}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\phase_unwrapping\opencv_phase_unwrapping.vcxproj">
+      <Project>{A98B07B3-AF53-3021-AB2F-4408D92D587E}</Project>
+      <Name>opencv_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\photo\opencv_photo.vcxproj">
+      <Project>{EF6D3FB0-2875-3A72-BBC7-833D45741F5E}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\plot\opencv_plot.vcxproj">
+      <Project>{497F9E2E-87D6-312D-A681-311095356E6D}</Project>
+      <Name>opencv_plot</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\quality\opencv_quality.vcxproj">
+      <Project>{91122968-BB07-31F0-92B1-423D8563271B}</Project>
+      <Name>opencv_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\rapid\opencv_rapid.vcxproj">
+      <Project>{32F0CCE6-63F2-333D-ACFB-D8A8A490B7FC}</Project>
+      <Name>opencv_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\reg\opencv_reg.vcxproj">
+      <Project>{EC69516C-C024-3E50-9C5C-595E174DC732}</Project>
+      <Name>opencv_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\rgbd\opencv_rgbd.vcxproj">
+      <Project>{48FDEFD6-E0C9-35E3-81B5-FF5A1993619A}</Project>
+      <Name>opencv_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\saliency\opencv_saliency.vcxproj">
+      <Project>{1E084608-2D1D-391A-B743-EC397F212B59}</Project>
+      <Name>opencv_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\shape\opencv_shape.vcxproj">
+      <Project>{8CF4D3C2-7380-39E8-881F-A949C5300920}</Project>
+      <Name>opencv_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{36CEA223-5C7F-351D-A39C-15544110AEAD}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\structured_light\opencv_structured_light.vcxproj">
+      <Project>{12ACF42D-BB3D-35AC-81BF-06069C650F87}</Project>
+      <Name>opencv_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\surface_matching\opencv_surface_matching.vcxproj">
+      <Project>{BBDEDDCD-5099-3D77-BEED-153EDA5D5813}</Project>
+      <Name>opencv_surface_matching</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xobjdetect\opencv_xobjdetect.vcxproj">
+      <Project>{20E5F8CA-B9EC-3AC1-BF6F-7EF9F3CCFCF9}</Project>
+      <Name>opencv_xobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto\opencv_xphoto.vcxproj">
+      <Project>{8057C507-B22D-3B41-919B-BC763CEDFA26}</Project>
+      <Name>opencv_xphoto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

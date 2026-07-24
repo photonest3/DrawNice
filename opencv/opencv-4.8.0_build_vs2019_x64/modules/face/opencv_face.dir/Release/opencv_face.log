@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/face/CMakeLists.txt
+  cmake_pch.cxx
+  bif.cpp
+  eigen_faces.cpp
+  face_alignment.cpp
+  face_basic.cpp
+  facemark.cpp
+  facemarkAAM.cpp
+  facemarkLBF.cpp
+  facerec.cpp
+  fisher_faces.cpp
+  getlandmarks.cpp
+  lbph_faces.cpp
+  mace.cpp
+  predict_collector.cpp
+  regtree.cpp
+  trainFacemark.cpp
+  opencv_face.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_face480.lib

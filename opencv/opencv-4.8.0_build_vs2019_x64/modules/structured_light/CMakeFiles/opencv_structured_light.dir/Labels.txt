@@ -1,0 +1,38 @@
+# Target labels
+ Extra
+ opencv_structured_light
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/structured_light/CMakeFiles/opencv_structured_light.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/include/opencv2/structured_light.hpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/include/opencv2/structured_light/graycodepattern.hpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/include/opencv2/structured_light/sinusoidalpattern.hpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/include/opencv2/structured_light/structured_light.hpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/src/graycodepattern.cpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/src/sinusoidalpattern.cpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/src/precomp.hpp
+ Extra
+ opencv_structured_light
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/structured_light/CMakeFiles/opencv_structured_light.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/structured_light/CMakeFiles/opencv_structured_light.dir/Release/cmake_pch.hxx

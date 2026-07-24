@@ -1,0 +1,174 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/img_hash/CMakeFiles/opencv_img_hash.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/average_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/block_mean_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/color_moment_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/img_hash_base.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/marr_hildreth_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/phash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/include/opencv2/img_hash/radial_variance_hash.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/average_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/block_mean_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/color_moment_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/img_hash_base.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/marr_hildreth_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/phash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/radial_variance_hash.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_img_hash",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/img_hash/CMakeFiles/opencv_img_hash.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/img_hash/CMakeFiles/opencv_img_hash.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_img_hash",
+			"Module"
+		],
+		"name" : "opencv_img_hash"
+	}
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\dgif_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\egif_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gifalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\quantize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\openbsd-reallocarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\stdbool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_lib_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\giflib-5.2.1\gif_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\osg-3rdparty-cmake-master\giflib\unistd.h.in">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0D924FB6-DA99-3E2B-88C6-0CDFC9B65485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F395BF7D-A7A8-3FFB-9EA0-60A3C5BAE7AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

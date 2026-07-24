@@ -1,0 +1,51 @@
+﻿  Processing OpenCL kernels (calib3d)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/calib3d/opencl_kernels_calib3d.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/calib3d/CMakeLists.txt
+  cmake_pch.cxx
+  ap3p.cpp
+  calibinit.cpp
+  calibration.cpp
+  calibration_handeye.cpp
+  checkchessboard.cpp
+  chessboard.cpp
+  circlesgrid.cpp
+  compat_ptsetreg.cpp
+  dls.cpp
+  epnp.cpp
+  fisheye.cpp
+  five-point.cpp
+  fundam.cpp
+  homography_decomp.cpp
+  ippe.cpp
+  levmarq.cpp
+  main.cpp
+  p3p.cpp
+  polynom_solver.cpp
+  posit.cpp
+  ptsetreg.cpp
+  quadsubpix.cpp
+  rho.cpp
+  solvepnp.cpp
+  sqpnp.cpp
+  stereobm.cpp
+  stereosgbm.cpp
+  triangulate.cpp
+  undistort.dispatch.cpp
+  upnp.cpp
+  bundle.cpp
+  degeneracy.cpp
+  dls_solver.cpp
+  essential_solver.cpp
+  estimator.cpp
+  fundamental_solver.cpp
+  gamma_values.cpp
+  homography_solver.cpp
+  local_optimization.cpp
+  pnp_solver.cpp
+  quality.cpp
+  ransac_solvers.cpp
+  sampler.cpp
+  termination.cpp
+  utils.cpp
+  opencl_kernels_calib3d.cpp
+  opencv_calib3d.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_calib3d480.lib

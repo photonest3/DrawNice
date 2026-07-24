@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/xphoto/CMakeLists.txt
+  bm3d_image_denoising.cpp
+  dct_image_denoising.cpp
+  grayworld_white_balance.cpp
+  inpainting.cpp
+  learning_based_color_balance.cpp
+  oilpainting.cpp
+  simple_color_balance.cpp
+  tonemap.cpp
+  opencv_xphoto.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_xphoto480.lib

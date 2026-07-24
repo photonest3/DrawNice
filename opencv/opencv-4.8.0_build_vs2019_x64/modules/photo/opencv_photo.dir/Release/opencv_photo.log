@@ -1,0 +1,19 @@
+﻿  Processing OpenCL kernels (photo)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/photo/opencl_kernels_photo.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/photo/CMakeLists.txt
+  cmake_pch.cxx
+  align.cpp
+  calibrate.cpp
+  contrast_preserve.cpp
+  denoise_tvl1.cpp
+  denoising.cpp
+  denoising.cuda.cpp
+  hdr_common.cpp
+  inpaint.cpp
+  merge.cpp
+  npr.cpp
+  seamless_cloning.cpp
+  seamless_cloning_impl.cpp
+  tonemap.cpp
+  opencl_kernels_photo.cpp
+  opencv_photo.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_photo480.lib

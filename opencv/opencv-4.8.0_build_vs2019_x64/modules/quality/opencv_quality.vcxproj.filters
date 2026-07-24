@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\quality\CMakeFiles\opencv_quality.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\src\qualitybrisque.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\src\qualitygmsd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\src\qualitymse.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\src\qualityssim.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\quality_utils.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualitybase.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualitybrisque.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualitygmsd.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualitymse.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualitypsnr.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\include\opencv2\quality\qualityssim.hpp">
+      <Filter>Include\opencv2\quality</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\quality\CMakeFiles\opencv_quality.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\quality\CMakeFiles\opencv_quality.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\quality\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\quality">
+      <UniqueIdentifier>{E9C27F52-7BE0-30E6-8974-0B446E163EA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

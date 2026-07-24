@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/structured_light/CMakeLists.txt
+  cmake_pch.cxx
+  graycodepattern.cpp
+  sinusoidalpattern.cpp
+  opencv_structured_light.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_structured_light480.lib

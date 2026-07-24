@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/features2d/CMakeLists.txt
+  fast.avx2.cpp
+  sift.avx2.cpp
+  opencv_features2d_AVX2.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\features2d\opencv_features2d_AVX2.dir\Release\opencv_features2d_AVX2.lib

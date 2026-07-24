@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_image_denoising.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\dct_image_denoising.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\grayworld_white_balance.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\inpainting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\learning_based_color_balance.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\oilpainting.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\simple_color_balance.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\tonemap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\bm3d_image_denoising.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\dct_image_denoising.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\inpainting.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\oilpainting.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\tonemap.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\white_balance.hpp">
+      <Filter>Include\opencv2\xphoto</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\advanced_types.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\annf.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\blending.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_commons.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_step1.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_step2.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_structs.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_1D.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_2D.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_haar.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\gcgraph.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\inpainting_fsr.impl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\kaiser_window.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\learning_based_color_balance_model.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\norm2.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\photomontage.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\whs.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\xphoto">
+      <UniqueIdentifier>{1F962E38-9DAC-374C-BA85-0930A0D73B45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

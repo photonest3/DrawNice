@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/voy/102/third/osg-3rdparty-cmake-master/giflib/CMakeLists.txt
+  CMake is re-running because E:/voy/102/third/osg-3rdparty-cmake-master/build_vs2019_x64/giflib/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/Program Files/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake'
+    is newer than 'E:/voy/102/third/osg-3rdparty-cmake-master/build_vs2019_x64/giflib/CMakeFiles/generate.stamp.depend'
+    result='0'
+  CMake Error at CMakeLists.txt:3 (project):
+    Generator
+  
+  -- Configuring incomplete, errors occurred!
+      Visual Studio 16 2019
+  
+    could not find specified instance of Visual Studio:
+  
+      d:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise
+  
+  
+  See also "E:/voy/102/third/osg-3rdparty-cmake-master/build_vs2019_x64/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'E:\voy\102\third\osg-3rdparty-cmake-master\giflib\CMakeLists.txt' exited with code 1.

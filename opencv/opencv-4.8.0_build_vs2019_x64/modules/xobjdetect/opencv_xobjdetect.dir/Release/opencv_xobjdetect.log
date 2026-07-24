@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/xobjdetect/CMakeLists.txt
+  cmake_pch.cxx
+  feature_evaluator.cpp
+  lbpfeatures.cpp
+  waldboost.cpp
+  wbdetector.cpp
+  opencv_xobjdetect.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_xobjdetect480.lib

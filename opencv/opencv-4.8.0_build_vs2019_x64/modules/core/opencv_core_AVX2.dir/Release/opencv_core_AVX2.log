@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/core/CMakeLists.txt
+  mathfuncs_core.avx2.cpp
+  stat.avx2.cpp
+  arithm.avx2.cpp
+  convert.avx2.cpp
+  convert_scale.avx2.cpp
+  count_non_zero.avx2.cpp
+  has_non_zero.avx2.cpp
+  matmul.avx2.cpp
+  mean.avx2.cpp
+  merge.avx2.cpp
+  split.avx2.cpp
+  sum.avx2.cpp
+  opencv_core_AVX2.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core_AVX2.dir\Release\opencv_core_AVX2.lib

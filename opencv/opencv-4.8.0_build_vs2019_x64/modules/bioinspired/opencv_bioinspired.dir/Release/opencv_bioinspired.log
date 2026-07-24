@@ -1,0 +1,16 @@
+﻿  Processing OpenCL kernels (bioinspired)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/opencl_kernels_bioinspired.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/CMakeLists.txt
+  cmake_pch.cxx
+  basicretinafilter.cpp
+  imagelogpolprojection.cpp
+  magnoretinafilter.cpp
+  parvoretinafilter.cpp
+  retina.cpp
+  retina_ocl.cpp
+  retinacolor.cpp
+  retinafasttonemapping.cpp
+  retinafilter.cpp
+  transientareassegmentationmodule.cpp
+  opencl_kernels_bioinspired.cpp
+  opencv_bioinspired.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_bioinspired480.lib

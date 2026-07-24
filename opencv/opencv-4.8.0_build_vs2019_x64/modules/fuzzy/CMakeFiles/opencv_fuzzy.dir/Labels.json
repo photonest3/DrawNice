@@ -1,0 +1,111 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/include/opencv2/fuzzy.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/include/opencv2/fuzzy/fuzzy_F0_math.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/include/opencv2/fuzzy/fuzzy_F1_math.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/include/opencv2/fuzzy/fuzzy_image.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/include/opencv2/fuzzy/types.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/src/fuzzy_F0_math.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/src/fuzzy_F1_math.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/src/fuzzy_image.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/fuzzy/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_fuzzy",
+			"Module"
+		],
+		"name" : "opencv_fuzzy"
+	}
+}

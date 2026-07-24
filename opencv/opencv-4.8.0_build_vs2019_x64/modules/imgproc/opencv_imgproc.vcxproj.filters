@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\CMakeFiles\opencv_imgproc.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\accum.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\accum.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\approx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\bilateral_filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\blend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\box_filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\canny.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\clahe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_hsv.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_lab.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_rgb.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_yuv.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\colormap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\connectedcomponents.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\contours.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\convhull.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\corner.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\cornersubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\demosaicing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\deriv.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\distransform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\drawing.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\emd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\featureselect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\filter.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\floodfill.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\gabor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\generalized_hough.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\geometry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\grabcut.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\hershey_fonts.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\histogram.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\hough.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\imgwarp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\intelligent_scissors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\intersection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\linefit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\lsd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\matchcontours.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\median_blur.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\min_enclosing_triangle.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\moments.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\morph.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\phasecorr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\pyramids.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\resize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\rotcalipers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\samplers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\segmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\shapedescr.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\smooth.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\spatialgradient.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\stackblur.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\subdivision2d.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\sumpixels.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\tables.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\templmatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\thresh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencl_kernels_imgproc.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\bindings.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\detail\gcgraph.hpp">
+      <Filter>Include\opencv2\imgproc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\hal\hal.hpp">
+      <Filter>Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\hal\interface.h">
+      <Filter>Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\imgproc.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\imgproc_c.h">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\segmentation.hpp">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include\opencv2\imgproc\types_c.h">
+      <Filter>Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencl_kernels_imgproc.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\_geom.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\accum.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\bilateral_filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\box_filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\ccl_bolelli_forest.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\ccl_bolelli_forest_firstline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\ccl_bolelli_forest_lastline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\ccl_bolelli_forest_singleline.inc.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color.simd_helpers.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_hsv.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_rgb.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\color_yuv.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\corner.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\filter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\filter.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\filterengine.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\fixedpoint.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\hal_replacement.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\imgwarp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\median_blur.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\morph.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\resize.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\smooth.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\sumpixels.avx512_skx.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\sumpixels.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\CMakeFiles\opencv_imgproc.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\CMakeFiles\opencv_imgproc.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\CMakeFiles\ee2b6233cb03072c4850ccc84968ecd2\opencl_kernels_imgproc.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\accumulate.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\bilateral.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\blend_linear.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\boxFilter.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\boxFilter3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\calc_back_project.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\canny.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\clahe.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\color_hsv.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\color_lab.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\color_rgb.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\color_yuv.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\corner.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\covardata.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filter2D.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filter2DSmall.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filterSepCol.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filterSepRow.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filterSep_singlePass.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\filterSmall.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\gaussianBlur3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\gaussianBlur5x5.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\gftt.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\histogram.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\hough_lines.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\integral_sum.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\laplacian3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\laplacian5.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\linearPolar.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\logPolar.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\match_template.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\medianFilter.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\moments.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\morph.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\morph3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\precornerdetect.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\pyr_down.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\pyr_up.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\pyramid_up.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\remap.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\resize.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\sepFilter3x3.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\threshold.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\warp_affine.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\warp_perspective.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\src\opencl\warp_transform.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\imgwarp.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\resize.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\accum.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\box_filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_hsv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_rgb.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\color_yuv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\median_blur.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\morph.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_SSE4_1.dir\$(Configuration)\smooth.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX.dir\$(Configuration)\corner.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX.dir\$(Configuration)\accum.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\imgwarp.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\resize.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\accum.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\bilateral_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\box_filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\filter.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_hsv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_rgb.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\color_yuv.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\median_blur.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\morph.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\smooth.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\$(Configuration)\sumpixels.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX512_SKX.dir\$(Configuration)\sumpixels.avx512_skx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA0DEA41-A087-3A7E-A7EC-4DF97C22C7B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc">
+      <UniqueIdentifier>{6763CF52-FC0D-3BEB-BA5D-5A2BB579B57A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc\detail">
+      <UniqueIdentifier>{E67306AA-9C19-39F5-88EE-D08241987778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\imgproc\hal">
+      <UniqueIdentifier>{CCF29089-509A-39C4-9C95-E15A8A7CBCB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{8E57C4E0-1CBD-3AEA-93CB-C73C02FB0697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{2FC1733B-596D-3CDA-B30D-610420ECD6A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{6AE4C84A-1066-3116-BB35-39E85DFC0A31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{5C89A270-52AE-388D-B9BD-A1BA5DE372AB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

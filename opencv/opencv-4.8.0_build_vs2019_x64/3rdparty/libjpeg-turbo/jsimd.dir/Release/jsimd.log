@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/libjpeg-turbo/CMakeLists.txt
+  jsimd_none.c
+  jsimd.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\jsimd.dir\Release\jsimd.lib

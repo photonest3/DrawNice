@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\lunasvg-master\build_vs2019_x64\CMakeFiles\9dd01b4ac259fca667cb2f0c6c325506\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{949B1298-D553-382A-8AD3-0CE194426876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

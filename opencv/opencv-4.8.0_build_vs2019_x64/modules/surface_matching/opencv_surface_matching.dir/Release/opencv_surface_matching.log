@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/surface_matching/CMakeLists.txt
+  cmake_pch.cxx
+  icp.cpp
+  pose_3d.cpp
+  ppf_helpers.cpp
+  ppf_match_3d.cpp
+  t_hash_int.cpp
+  opencv_surface_matching.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_surface_matching480.lib

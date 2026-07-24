@@ -1,0 +1,147 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/quality_utils.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitybase.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitybrisque.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitygmsd.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitymse.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitypsnr.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualityssim.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitybrisque.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitygmsd.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitymse.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualityssim.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_quality",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_quality",
+			"Module"
+		],
+		"name" : "opencv_quality"
+	}
+}

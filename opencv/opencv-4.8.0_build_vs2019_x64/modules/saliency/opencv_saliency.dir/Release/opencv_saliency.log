@@ -1,0 +1,15 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/saliency/CMakeLists.txt
+  cmake_pch.cxx
+  CmFile.cpp
+  CmShow.cpp
+  FilterTIG.cpp
+  ValStructVec.cpp
+  objectnessBING.cpp
+  motionSaliency.cpp
+  motionSaliencyBinWangApr2014.cpp
+  objectness.cpp
+  saliency.cpp
+  staticSaliency.cpp
+  staticSaliencyFineGrained.cpp
+  staticSaliencySpectralResidual.cpp
+  opencv_saliency.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_saliency480.lib

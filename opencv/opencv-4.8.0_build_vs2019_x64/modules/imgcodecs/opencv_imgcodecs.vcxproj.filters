@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_avif.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdcm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pam.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pfm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_spng.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_webp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\rgbe.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\exif.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\ios.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\legacy\constants_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\macosx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_avif.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_base.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_bmp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_exr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdal.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdcm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_hdr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pam.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pfm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_png.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pxm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_spng.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_sunras.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_tiff.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_webp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmts.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\bitstrm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\rgbe.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\exif.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\grfmts">
+      <UniqueIdentifier>{E61BE20C-F0D7-3FB4-B3B0-D644C90745DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

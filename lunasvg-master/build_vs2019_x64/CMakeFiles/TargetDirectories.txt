@@ -1,0 +1,8 @@
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/CMakeFiles/lunasvg.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/CMakeFiles/INSTALL.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/CMakeFiles/ALL_BUILD.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/CMakeFiles/ZERO_CHECK.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/include/CMakeFiles/INSTALL.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/source/CMakeFiles/INSTALL.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/3rdparty/software/CMakeFiles/INSTALL.dir
+E:/voy/102/third/lunasvg-master/build_vs2019_x64/3rdparty/plutovg/CMakeFiles/INSTALL.dir

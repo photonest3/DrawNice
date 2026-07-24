@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/quirc/CMakeLists.txt
+  decode.c
+  quirc.c
+  version_db.c
+  quirc.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Release\quirc.lib

@@ -1,0 +1,15 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgproc/CMakeLists.txt
+  imgwarp.avx2.cpp
+  resize.avx2.cpp
+  accum.avx2.cpp
+  bilateral_filter.avx2.cpp
+  box_filter.avx2.cpp
+  filter.avx2.cpp
+  color_hsv.avx2.cpp
+  color_rgb.avx2.cpp
+  color_yuv.avx2.cpp
+  median_blur.avx2.cpp
+  morph.avx2.cpp
+  smooth.avx2.cpp
+  sumpixels.avx2.cpp
+  opencv_imgproc_AVX2.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX2.dir\Release\opencv_imgproc_AVX2.lib

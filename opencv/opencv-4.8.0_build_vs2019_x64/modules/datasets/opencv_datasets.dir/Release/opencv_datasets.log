@@ -1,0 +1,35 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/datasets/CMakeLists.txt
+  ar_hmdb.cpp
+  ar_sports.cpp
+  dataset.cpp
+  fr_adience.cpp
+  fr_lfw.cpp
+  gr_chalearn.cpp
+  gr_skig.cpp
+  hpe_humaneva.cpp
+  hpe_parse.cpp
+  ir_affine.cpp
+  ir_robot.cpp
+  is_bsds.cpp
+  is_weizmann.cpp
+  msm_epfl.cpp
+  msm_middlebury.cpp
+  or_imagenet.cpp
+  or_mnist.cpp
+  or_pascal.cpp
+  or_sun.cpp
+  pd_caltech.cpp
+  pd_inria.cpp
+  slam_kitti.cpp
+  slam_tumindoor.cpp
+  sr_bsds.cpp
+  sr_div2k.cpp
+  sr_general100.cpp
+  tinyxml2.cpp
+  tr_chars.cpp
+  tr_icdar.cpp
+  tr_svt.cpp
+  track_alov.cpp
+  track_vot.cpp
+  util.cpp
+  opencv_datasets.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_datasets480.lib

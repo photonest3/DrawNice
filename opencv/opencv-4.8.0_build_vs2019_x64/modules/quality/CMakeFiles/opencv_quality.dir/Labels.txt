@@ -1,0 +1,62 @@
+# Target labels
+ Extra
+ opencv_quality
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/quality_utils.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitybase.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitybrisque.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitygmsd.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitymse.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualitypsnr.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/include/opencv2/quality/qualityssim.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitybrisque.cpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitygmsd.cpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualitymse.cpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/qualityssim.cpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/quality/src/precomp.hpp
+ Extra
+ opencv_quality
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/quality/CMakeFiles/opencv_quality.dir/Release/cmake_pch.hxx

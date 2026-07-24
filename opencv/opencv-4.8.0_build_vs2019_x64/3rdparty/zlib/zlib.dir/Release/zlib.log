@@ -1,0 +1,17 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/zlib/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  zlib.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Release\zlib.lib

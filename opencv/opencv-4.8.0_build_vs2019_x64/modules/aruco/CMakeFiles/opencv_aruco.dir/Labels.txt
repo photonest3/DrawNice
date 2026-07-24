@@ -1,0 +1,38 @@
+# Target labels
+ Extra
+ opencv_aruco
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco.hpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco/aruco_calib.hpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco/charuco.hpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/aruco.cpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/aruco_calib.cpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/charuco.cpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/precomp.hpp
+ Extra
+ opencv_aruco
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/Release/cmake_pch.hxx

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\phase_unwrapping\CMakeFiles\opencv_phase_unwrapping.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\src\histogramphaseunwrapping.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\include\opencv2\phase_unwrapping.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\include\opencv2\phase_unwrapping\histogramphaseunwrapping.hpp">
+      <Filter>Include\opencv2\phase_unwrapping</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\include\opencv2\phase_unwrapping\phase_unwrapping.hpp">
+      <Filter>Include\opencv2\phase_unwrapping</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\phase_unwrapping\CMakeFiles\opencv_phase_unwrapping.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\phase_unwrapping\CMakeFiles\opencv_phase_unwrapping.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\phase_unwrapping\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\phase_unwrapping">
+      <UniqueIdentifier>{7AF3522E-3805-3CED-AB50-3A93B0D988A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+^E:\VOY\102\THIRD\OPENCV\OPENCV-4.8.0_BUILD_VS2019_X64\CMAKEFILES\6E1006B7CF99CEB9B6BF0CA045EA2E23\OPENCL_KERNELS_RGBD.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=rgbd -DCL_DIR=E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/rgbd/src/opencl -DOUTPUT=E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/rgbd/opencl_kernels_rgbd.cpp -P E:/voy/102/third/opencv/opencv-4.8.0/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\VOY\102\THIRD\OPENCV\OPENCV_CONTRIB-4.8.0\MODULES\RGBD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/rgbd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

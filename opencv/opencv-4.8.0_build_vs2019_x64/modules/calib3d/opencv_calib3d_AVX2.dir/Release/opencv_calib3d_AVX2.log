@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/calib3d/CMakeLists.txt
+  undistort.avx2.cpp
+  opencv_calib3d_AVX2.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\calib3d\opencv_calib3d_AVX2.dir\Release\opencv_calib3d_AVX2.lib

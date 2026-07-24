@@ -1,0 +1,26 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgcodecs/CMakeLists.txt
+  cmake_pch.cxx
+  loadsave.cpp
+  utils.cpp
+  grfmt_avif.cpp
+  grfmt_base.cpp
+  grfmt_bmp.cpp
+  grfmt_exr.cpp
+  grfmt_gdal.cpp
+  grfmt_gdcm.cpp
+  grfmt_hdr.cpp
+  grfmt_jpeg.cpp
+  grfmt_jpeg2000.cpp
+  grfmt_jpeg2000_openjpeg.cpp
+  grfmt_pam.cpp
+  grfmt_pfm.cpp
+  grfmt_png.cpp
+  grfmt_pxm.cpp
+  grfmt_spng.cpp
+  grfmt_sunras.cpp
+  grfmt_tiff.cpp
+  grfmt_webp.cpp
+  bitstrm.cpp
+  rgbe.cpp
+  exif.cpp
+  opencv_imgcodecs.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_imgcodecs480.lib

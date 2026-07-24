@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\reg\CMakeFiles\opencv_reg.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\map.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mapaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mapper.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mappergradaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mappergradeuclid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mappergradproj.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mappergradshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mappergradsimilar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mapperpyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mapprojec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\mapshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\map.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mapaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mapper.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mappergradaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mappergradeuclid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mappergradproj.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mappergradshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mappergradsimilar.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mapperpyramid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mapprojec.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\include\opencv2\reg\mapshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\reg\CMakeFiles\opencv_reg.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\reg\CMakeFiles\opencv_reg.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\reg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\reg">
+      <UniqueIdentifier>{8BED46C5-B0E4-35F4-AC4C-76E7A581F4F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,147 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/dpm/CMakeFiles/opencv_dpm.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/include/opencv2/dpm.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_cascade.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_cascade_detector.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_convolution.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_feature.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_model.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_nms.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_cascade.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_convolution.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_feature.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_model.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/dpm_nms.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/dpm/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dpm",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/dpm/CMakeFiles/opencv_dpm.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/dpm/CMakeFiles/opencv_dpm.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dpm",
+			"Module"
+		],
+		"name" : "opencv_dpm"
+	}
+}

@@ -1,0 +1,46 @@
+# Target labels
+ Extra
+ opencv_ccalib
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/multicalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/omnidir.hpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/randpattern.hpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/ccalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/multicalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/omnidir.cpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/randpattern.cpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/precomp.hpp
+ Extra
+ opencv_ccalib
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/Release/cmake_pch.hxx

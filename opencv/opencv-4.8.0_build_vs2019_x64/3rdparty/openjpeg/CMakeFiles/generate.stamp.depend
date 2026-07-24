@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/TestBigEndian.cmake
+E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/openjpeg/CMakeLists.txt
+E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/openjpeg/openjp2/opj_config.h.cmake.in
+E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/openjpeg/openjp2/opj_config_private.h.cmake.in

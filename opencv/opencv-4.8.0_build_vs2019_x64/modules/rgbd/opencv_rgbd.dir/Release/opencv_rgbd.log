@@ -1,0 +1,30 @@
+﻿  Processing OpenCL kernels (rgbd)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/rgbd/opencl_kernels_rgbd.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/rgbd/CMakeLists.txt
+  cmake_pch.cxx
+  colored_kinfu.cpp
+  colored_tsdf.cpp
+  depth_cleaner.cpp
+  depth_registration.cpp
+  depth_to_3d.cpp
+  dqb.cpp
+  dynafu.cpp
+  dynafu_tsdf.cpp
+  fast_icp.cpp
+  hash_tsdf.cpp
+  kinfu.cpp
+  kinfu_frame.cpp
+  large_kinfu.cpp
+  linemod.cpp
+  nonrigid_icp.cpp
+  normal.cpp
+  odometry.cpp
+  plane.cpp
+  pose_graph.cpp
+  tsdf.cpp
+  tsdf_functions.cpp
+  utils.cpp
+  volume.cpp
+  warpfield.cpp
+  opencl_kernels_rgbd.cpp
+  opencv_rgbd.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_rgbd480.lib

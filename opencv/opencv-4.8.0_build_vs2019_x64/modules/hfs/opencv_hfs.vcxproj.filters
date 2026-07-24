@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\hfs\CMakeFiles\opencv_hfs.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\hfs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\hfs_core.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\magnitude\magnitude.cpp">
+      <Filter>Src\magnitude</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\merge\merge.cpp">
+      <Filter>Src\merge</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\slic\gslic_engine.cpp">
+      <Filter>Src\slic</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\slic\slic.cpp">
+      <Filter>Src\slic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\include\opencv2\hfs.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\hfs_core.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\magnitude\magnitude.hpp">
+      <Filter>Src\magnitude</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\merge\merge.hpp">
+      <Filter>Src\merge</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\or_utils\or_image.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\or_utils\or_memory_block.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\or_utils\or_types.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\or_utils\or_vector.hpp">
+      <Filter>Src\or_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\src\slic\slic.hpp">
+      <Filter>Src\slic</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\hfs\CMakeFiles\opencv_hfs.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\hfs\CMakeFiles\opencv_hfs.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\hfs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{56B8FA6A-FDC6-38A6-B443-ADA22C1A1BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{3301C0D8-1086-3149-A6A1-C9CEBA081463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{08665AB5-23AE-3A7D-9737-6B750F92B0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DC38E083-AEF5-336F-A9F5-0C5A77177B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{D8E81CE3-C816-35CB-8C95-AF189B4BCF82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\magnitude">
+      <UniqueIdentifier>{5A9F61C2-5960-3D86-A797-9B1519B874BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\merge">
+      <UniqueIdentifier>{AC7D5FD3-D299-33F8-9C38-23E3B2299ABF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\or_utils">
+      <UniqueIdentifier>{D1EF1C1E-0A96-3A9E-A69D-FB4467DE3CA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\slic">
+      <UniqueIdentifier>{A1E31406-C4A1-3226-B6D6-F838778C1BC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

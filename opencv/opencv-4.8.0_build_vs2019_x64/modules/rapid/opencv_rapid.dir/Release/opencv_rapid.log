@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/rapid/CMakeLists.txt
+  cmake_pch.cxx
+  histogram.cpp
+  rapid.cpp
+  opencv_rapid.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_rapid480.lib

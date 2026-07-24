@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/core/CMakeLists.txt
+  stat.sse4_2.cpp
+  opencv_core_SSE4_2.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core_SSE4_2.dir\Release\opencv_core_SSE4_2.lib

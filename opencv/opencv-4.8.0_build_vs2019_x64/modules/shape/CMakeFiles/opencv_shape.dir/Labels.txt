@@ -1,0 +1,70 @@
+# Target labels
+ Extra
+ opencv_shape
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/shape/CMakeFiles/opencv_shape.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape/emdL1.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape/hist_cost.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape/shape.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape/shape_distance.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/include/opencv2/shape/shape_transformer.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/aff_trans.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/emdL1.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/haus_dis.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/hist_cost.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/sc_dis.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/tps_trans.cpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/emdL1_def.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/precomp.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/shape/src/scd_def.hpp
+ Extra
+ opencv_shape
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/shape/CMakeFiles/opencv_shape.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/shape/CMakeFiles/opencv_shape.dir/Release/cmake_pch.hxx

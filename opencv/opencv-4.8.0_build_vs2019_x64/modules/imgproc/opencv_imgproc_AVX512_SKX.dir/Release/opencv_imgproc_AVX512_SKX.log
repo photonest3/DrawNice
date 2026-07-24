@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgproc/CMakeLists.txt
+  sumpixels.avx512_skx.cpp
+  opencv_imgproc_AVX512_SKX.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc_AVX512_SKX.dir\Release\opencv_imgproc_AVX512_SKX.lib

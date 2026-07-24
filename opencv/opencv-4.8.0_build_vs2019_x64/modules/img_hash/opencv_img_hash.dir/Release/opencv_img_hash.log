@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/img_hash/CMakeLists.txt
+  cmake_pch.cxx
+  average_hash.cpp
+  block_mean_hash.cpp
+  color_moment_hash.cpp
+  img_hash_base.cpp
+  marr_hildreth_hash.cpp
+  phash.cpp
+  radial_variance_hash.cpp
+  opencv_img_hash.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_img_hash480.lib

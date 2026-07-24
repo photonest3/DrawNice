@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA9589E8-4B8E-39B5-8D97-001ECCBF2DCF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_imgcodecs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs480d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs480</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/opencv_imgcodecs.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\opencv_imgcodecs480d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/opencv_imgcodecs.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_imgcodecs480.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\zlib;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libtiff;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libpng;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libwebp\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/opencv_imgcodecs.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/opencv_imgcodecs.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\ios.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\legacy\constants_c.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include\opencv2\imgcodecs\macosx.h" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\loadsave.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\utils.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\precomp.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\utils.hpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_avif.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_exr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdcm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pam.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pfm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_png.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_spng.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_webp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\bitstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\rgbe.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\exif.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_avif.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_base.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_bmp.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_exr.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdal.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_gdcm.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_hdr.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pam.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pfm.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_png.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_pxm.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_spng.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_sunras.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_tiff.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmt_webp.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\grfmts.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\bitstrm.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\rgbe.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\src\exif.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\ZERO_CHECK.vcxproj">
+      <Project>{36361299-603D-3D8B-836A-4ECBB0E38EE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{BF7B8102-3536-3715-9354-153A5BFCF475}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{3A16FAD3-6053-3B92-B9FC-7967EF31CB98}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libpng\libpng.vcxproj">
+      <Project>{95444739-3186-36FE-818B-F1DF5371F125}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{3442D41B-5F15-3373-B006-8AF3F573FF5A}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{28A6CA57-D345-3C7E-967B-D1AFFC7C493A}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core.vcxproj">
+      <Project>{CD49C581-0002-3C2C-B5A1-E9BE7798220D}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{A2B1280C-8DD5-3B29-9324-FCD286CD1983}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib\zlib.vcxproj">
+      <Project>{E6721148-F269-3729-874F-1EF15E8F2EF9}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

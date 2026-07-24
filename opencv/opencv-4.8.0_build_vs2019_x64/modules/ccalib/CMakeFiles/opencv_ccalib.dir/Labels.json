@@ -1,0 +1,111 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/multicalib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/omnidir.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/include/opencv2/ccalib/randpattern.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/ccalib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/multicalib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/omnidir.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/randpattern.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/ccalib/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_ccalib",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/ccalib/CMakeFiles/opencv_ccalib.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_ccalib",
+			"Module"
+		],
+		"name" : "opencv_ccalib"
+	}
+}

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21234BBF-B09D-3F62-9E61-9FF10B665B91}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_datasets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_datasets.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_datasets480d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_datasets.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_datasets480</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\opencv_datasets480d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_datasets480.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\flann\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\ml\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgcodecs\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/datasets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/datasets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/datasets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/datasets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\datasets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\ar_hmdb.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\ar_sports.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\dataset.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\fr_adience.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\fr_lfw.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\gr_chalearn.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\gr_skig.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\hpe_humaneva.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\hpe_parse.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\ir_affine.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\ir_robot.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\is_bsds.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\is_weizmann.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\msm_epfl.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\msm_middlebury.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\or_imagenet.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\or_mnist.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\or_pascal.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\or_sun.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\pd_caltech.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\pd_inria.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\slam_kitti.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\slam_tumindoor.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\sr_bsds.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\sr_div2k.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\sr_general100.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\tr_chars.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\tr_icdar.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\tr_svt.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\track_alov.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\track_vot.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\include\opencv2\datasets\util.hpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\ar_hmdb.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\ar_sports.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\dataset.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\fr_adience.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\fr_lfw.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\gr_chalearn.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\gr_skig.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\hpe_humaneva.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\hpe_parse.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\ir_affine.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\ir_robot.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\is_bsds.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\is_weizmann.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\msm_epfl.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\msm_middlebury.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\or_imagenet.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\or_mnist.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\or_pascal.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\or_sun.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\pd_caltech.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\pd_inria.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\slam_kitti.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\slam_tumindoor.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\sr_bsds.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\sr_div2k.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\sr_general100.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\tr_chars.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\tr_icdar.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\tr_svt.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\track_alov.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\track_vot.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\util.cpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\datasets\src\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\ZERO_CHECK.vcxproj">
+      <Project>{36361299-603D-3D8B-836A-4ECBB0E38EE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{BF7B8102-3536-3715-9354-153A5BFCF475}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{3A16FAD3-6053-3B92-B9FC-7967EF31CB98}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libpng\libpng.vcxproj">
+      <Project>{95444739-3186-36FE-818B-F1DF5371F125}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{3442D41B-5F15-3373-B006-8AF3F573FF5A}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{28A6CA57-D345-3C7E-967B-D1AFFC7C493A}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core.vcxproj">
+      <Project>{CD49C581-0002-3C2C-B5A1-E9BE7798220D}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\flann\opencv_flann.vcxproj">
+      <Project>{FB402828-1E8D-3982-A586-692D06676F14}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{DA9589E8-4B8E-39B5-8D97-001ECCBF2DCF}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{A2B1280C-8DD5-3B29-9324-FCD286CD1983}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\ml\opencv_ml.vcxproj">
+      <Project>{B8BF33DD-7F66-3DB5-BF98-528623AD6DFB}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib\zlib.vcxproj">
+      <Project>{E6721148-F269-3729-874F-1EF15E8F2EF9}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

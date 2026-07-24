@@ -1,0 +1,93 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco/aruco_calib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/include/opencv2/aruco/charuco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/aruco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/aruco_calib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/charuco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/aruco/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/aruco/CMakeFiles/opencv_aruco.dir/Release/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_aruco",
+			"Module"
+		],
+		"name" : "opencv_aruco"
+	}
+}

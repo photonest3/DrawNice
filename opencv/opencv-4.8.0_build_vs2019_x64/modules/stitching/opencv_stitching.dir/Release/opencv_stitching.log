@@ -1,0 +1,18 @@
+﻿  Processing OpenCL kernels (stitching)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/stitching/opencl_kernels_stitching.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/stitching/CMakeLists.txt
+  cmake_pch.cxx
+  autocalib.cpp
+  blenders.cpp
+  camera.cpp
+  exposure_compensate.cpp
+  matchers.cpp
+  motion_estimators.cpp
+  seam_finders.cpp
+  stitcher.cpp
+  timelapsers.cpp
+  util.cpp
+  warpers.cpp
+  warpers_cuda.cpp
+  opencl_kernels_stitching.cpp
+  opencv_stitching.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_stitching480.lib

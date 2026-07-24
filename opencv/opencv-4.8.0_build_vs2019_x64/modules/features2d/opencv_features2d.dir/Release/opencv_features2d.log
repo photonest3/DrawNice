@@ -1,0 +1,31 @@
+﻿  Processing OpenCL kernels (features2d)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/features2d/opencl_kernels_features2d.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/features2d/CMakeLists.txt
+  cmake_pch.cxx
+  affine_feature.cpp
+  agast.cpp
+  agast_score.cpp
+  akaze.cpp
+  bagofwords.cpp
+  blobdetector.cpp
+  brisk.cpp
+  draw.cpp
+  dynamic.cpp
+  evaluation.cpp
+  fast.cpp
+  fast_score.cpp
+  feature2d.cpp
+  gftt.cpp
+  kaze.cpp
+  AKAZEFeatures.cpp
+  KAZEFeatures.cpp
+  fed.cpp
+  nldiffusion_functions.cpp
+  keypoint.cpp
+  main.cpp
+  matchers.cpp
+  mser.cpp
+  orb.cpp
+  sift.dispatch.cpp
+  opencl_kernels_features2d.cpp
+  opencv_features2d.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_features2d480.lib

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF7B8102-3536-3715-9354-153A5BFCF475}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>libjpeg-turbo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg-turbo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg-turbod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg-turbo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg-turbo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4018</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Debug\libjpeg-turbod.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4018</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\lib\Release\libjpeg-turbo.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/3rdparty/libjpeg-turbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\jconfig.h.win.in;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\jconfigint.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/3rdparty/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/3rdparty/libjpeg-turbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\jconfig.h.win.in;E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\jconfigint.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcapimin.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcapistd.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jccoefct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jccolor.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcdctmgr.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jchuff.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcicc.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcinit.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcmainct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcmarker.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcmaster.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcomapi.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcparam.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcphuff.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcprepct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcsample.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jctrans.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdapimin.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdapistd.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdatadst.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdatasrc.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdcoefct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdcolor.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jddctmgr.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdhuff.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdicc.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdinput.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdmainct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdmarker.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdmaster.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdmerge.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdphuff.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdpostct.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdsample.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdtrans.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jerror.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jfdctflt.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jfdctfst.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jfdctint.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jidctflt.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jidctfst.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jidctint.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jidctred.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jquant1.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jquant2.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jutils.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jmemmgr.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jmemnobs.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jaricom.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jcarith.c" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv-4.8.0\3rdparty\libjpeg-turbo\src\jdarith.c" />
+    <Object Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\jsimd.dir\$(Configuration)\jsimd_none.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\ZERO_CHECK.vcxproj">
+      <Project>{36361299-603D-3D8B-836A-4ECBB0E38EE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\libjpeg-turbo\jsimd.vcxproj">
+      <Project>{537A849E-B302-3CE6-BB1D-A0A9B35C1865}</Project>
+      <Name>jsimd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

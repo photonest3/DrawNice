@@ -1,0 +1,10 @@
+^E:\VOY\102\THIRD\OSG-3RDPARTY-CMAKE-MASTER\GIFLIB\CMAKELISTS.TXT
+setlocal
+"c:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/osg-3rdparty-cmake-master -BE:/voy/102/third/osg-3rdparty-cmake-master/build_vs2019_x64 --check-stamp-file E:/voy/102/third/osg-3rdparty-cmake-master/build_vs2019_x64/giflib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^E:\VOY\102\THIRD\LUNASVG-MASTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/lunasvg-master -BE:/voy/102/third/lunasvg-master/build_vs2019_x64 --check-stamp-file E:/voy/102/third/lunasvg-master/build_vs2019_x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

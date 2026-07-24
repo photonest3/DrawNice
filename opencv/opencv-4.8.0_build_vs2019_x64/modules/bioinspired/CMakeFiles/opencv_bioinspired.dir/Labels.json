@@ -1,0 +1,276 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/include/opencv2/bioinspired.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/include/opencv2/bioinspired/bioinspired.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/include/opencv2/bioinspired/retina.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/include/opencv2/bioinspired/retinafasttonemapping.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/include/opencv2/bioinspired/transientareassegmentationmodule.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/basicretinafilter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/imagelogpolprojection.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/magnoretinafilter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/parvoretinafilter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retina.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retina_ocl.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retinacolor.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retinafasttonemapping.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retinafilter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/transientareassegmentationmodule.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/opencl/retina_kernel.cl",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/opencl_kernels_bioinspired.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/opencl_kernels_bioinspired.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/basicretinafilter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/imagelogpolprojection.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/magnoretinafilter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/parvoretinafilter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retina_ocl.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retinacolor.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/retinafilter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/bioinspired/src/templatebuffer.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/bioinspired/CMakeFiles/opencv_bioinspired.dir/Release/cmake_pch.hxx"
+		},
+		{
+			"file" : "E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/CMakeFiles/ee0a9898a6444c7d690cd0e302df3b84/opencl_kernels_bioinspired.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_bioinspired",
+			"Module"
+		],
+		"name" : "opencv_bioinspired"
+	}
+}

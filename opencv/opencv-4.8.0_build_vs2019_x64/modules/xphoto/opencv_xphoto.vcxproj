@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8057C507-B22D-3B41-919B-BC763CEDFA26}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_xphoto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_xphoto.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_xphoto480d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_xphoto.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_xphoto480</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Debug\opencv_xphoto480d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_xphoto480.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src;E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto;E:\voy\102\third\opencv\opencv-4.8.0\modules\core\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\imgproc\include;E:\voy\102\third\opencv\opencv-4.8.0\modules\photo\include;E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/xphoto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/xphoto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/voy/102/third/opencv/opencv_contrib-4.8.0/modules/xphoto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/voy/102/third/opencv/opencv-4.8.0 -BE:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64 --check-stamp-file E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/xphoto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\xphoto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\bm3d_image_denoising.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\dct_image_denoising.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\inpainting.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\oilpainting.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\tonemap.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\include\opencv2\xphoto\white_balance.hpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_image_denoising.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\dct_image_denoising.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\grayworld_white_balance.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\inpainting.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\learning_based_color_balance.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\oilpainting.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\simple_color_balance.cpp" />
+    <ClCompile Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\tonemap.cpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\advanced_types.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\annf.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\blending.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_commons.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_step1.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_step2.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_invoker_structs.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_1D.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_2D.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\bm3d_denoising_transforms_haar.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\gcgraph.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\inpainting_fsr.impl.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\kaiser_window.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\learning_based_color_balance_model.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\norm2.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\photomontage.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv_contrib-4.8.0\modules\xphoto\src\whs.hpp" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\cvconfig.h" />
+    <ClInclude Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\opencv2\opencv_modules.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\ZERO_CHECK.vcxproj">
+      <Project>{36361299-603D-3D8B-836A-4ECBB0E38EE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\core\opencv_core.vcxproj">
+      <Project>{CD49C581-0002-3C2C-B5A1-E9BE7798220D}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{A2B1280C-8DD5-3B29-9324-FCD286CD1983}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\modules\photo\opencv_photo.vcxproj">
+      <Project>{EF6D3FB0-2875-3A72-BBC7-833D45741F5E}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\3rdparty\zlib\zlib.vcxproj">
+      <Project>{E6721148-F269-3729-874F-1EF15E8F2EF9}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

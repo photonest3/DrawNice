@@ -1,0 +1,32 @@
+﻿  Processing OpenCL kernels (objdetect)
+  -- E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/objdetect/opencl_kernels_objdetect.hpp contains the same content
+  Building Custom Rule E:/voy/102/third/opencv/opencv-4.8.0/modules/objdetect/CMakeLists.txt
+  cmake_pch.cxx
+  apriltag_quad_thresh.cpp
+  zmaxheap.cpp
+  aruco_board.cpp
+  aruco_detector.cpp
+  aruco_dictionary.cpp
+  aruco_utils.cpp
+  charuco_detector.cpp
+  barcode.cpp
+  abs_decoder.cpp
+  hybrid_binarizer.cpp
+  super_scale.cpp
+  utils.cpp
+  ean13_decoder.cpp
+  ean8_decoder.cpp
+  upcean_decoder.cpp
+  bardetect.cpp
+  cascadedetect.cpp
+  cascadedetect_convert.cpp
+  detection_based_tracker.cpp
+  face_detect.cpp
+  face_recognize.cpp
+  graphical_code_detector.cpp
+  hog.cpp
+  main.cpp
+  qrcode.cpp
+  qrcode_encoder.cpp
+  opencl_kernels_objdetect.cpp
+  opencv_objdetect.vcxproj -> E:\voy\102\third\opencv\opencv-4.8.0_build_vs2019_x64\lib\Release\opencv_objdetect480.lib

@@ -1,0 +1,46 @@
+# Target labels
+ Main
+ opencv_highgui
+ Module
+# Source files and their labels
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/highgui/CMakeFiles/opencv_highgui.dir/cmake_pch.cxx
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/include/opencv2/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/include/opencv2/highgui/highgui.hpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/include/opencv2/highgui/highgui_c.h
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/include/opencv2/highgui/highgui_c_oo.h
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/src/backend.cpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/src/window.cpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/src/roiSelector.cpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/src/window_w32.cpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0/modules/highgui/src/precomp.hpp
+ Main
+ opencv_highgui
+ Module
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/cvconfig.h
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/opencv2/opencv_modules.hpp
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/highgui/CMakeFiles/opencv_highgui.dir/Debug/cmake_pch.hxx
+E:/voy/102/third/opencv/opencv-4.8.0_build_vs2019_x64/modules/highgui/CMakeFiles/opencv_highgui.dir/Release/cmake_pch.hxx

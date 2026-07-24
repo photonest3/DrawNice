@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Blowfish.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="lang2.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="unitil2.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="myinpaint.cpp">
+      <Filter>ot</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_about.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_btn.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_clip.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_display.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_draw.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_filter.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_init.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_main.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_mouse.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_move.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_ot.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_pt.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_sticker.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_text.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_ui.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_ui_inp.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_ui_tips.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_utils.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_utils2.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="photol.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="unitil3.cpp">
+      <Filter>cv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blowfish.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="cvui.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="lunasvg.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="lang2.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="unitil2.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="myinpaint.h">
+      <Filter>ot</Filter>
+    </ClInclude>
+    <ClInclude Include="paint.h">
+      <Filter>cv</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>cv</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="unitil3.h">
+      <Filter>cv</Filter>
+    </ClInclude>
+    <ClInclude Include="photol.h">
+      <Filter>cv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bmp">
+      <UniqueIdentifier>{4ef4d323-8102-4b49-9248-a54d6c3188dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svg">
+      <UniqueIdentifier>{87d126db-27cb-41fa-80ce-8b669ad76bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cur">
+      <UniqueIdentifier>{717ff779-846b-4062-97a6-42915dbf238c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ot">
+      <UniqueIdentifier>{5c30f4d6-ef86-451e-837f-61eb42ba1a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cv">
+      <UniqueIdentifier>{445c6616-68f9-474b-9492-fbd9aeb8e927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{346205ba-cf7f-4f31-b155-67c2139fd9eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bmp\crop_11_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_11_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_32_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_32_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_43_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_43_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_54_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_54_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_75_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_75_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_169_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\crop_169_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\item.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\down_14.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\down_18.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\inp_sample.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\seg_sample.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\sticker_sample.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\info.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\cutout2.ico">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\painttext.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\art.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\mp3.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\mp4.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+    <Image Include="bmp\loader.bmp">
+      <Filter>bmp</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="svg\view-refresh-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\window-close-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\zoom-in-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\zoom-out-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\object-rotate-right-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\object-rotate-left-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\object-flip-vertical-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\object-flip-horizontal-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\list-remove-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\list-add-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\help-about-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gtk-select-font-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gtk-ok-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gtk-ok.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\go-previous-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\go-next-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\go-down-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-text-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-seamless-clone-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-rotate-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-pencil-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-rect-select-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-paintbrush-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-options-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-heal-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-fuzzy-select-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\fgd.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-free-select.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-foreground-select-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-center-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-cursor-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-curve-point-smooth-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-image-reload-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-paste-as-new-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-reset-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-rotate-180-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-selection-add-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-bucket-fill-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-color-balance-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-color-picker-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-crop-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-eraser-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\edit-undo-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\edit-copy-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\edit-paste-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\edit-redo-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\dialog-information-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\document-save-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="cur\tool-crop.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-cursor.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-ellipse.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-eraser.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-fill.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-free-select.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-fuzzy-select.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-gc_bgd.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-gc_fgd.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-move.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-paintbrush.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-painttext.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-pencil.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-picker.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-rect-select.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="cur\tool-select.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="svg\cut.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-mypaint-brush-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\bgd-gray.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\close-over.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\dialog-warning-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\draw-ellipse.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\draw-rect.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\draw-select.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\fgd-gray.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-opaque.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\media-floppy-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\media-playback-start-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\arrow-narrow-right.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\check2.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\dots-vertical.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gear-fill.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-selection-replace-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\home.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\info-lg.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\minus.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="cur\tool-hand.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="svg\sky.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\about.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\hand.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\mosaic.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\right.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\save.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\save-as.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="cur\tool-mosaic.cur">
+      <Filter>cur</Filter>
+    </None>
+    <None Include="svg\open.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\optimization.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\upper-right-arrow.svg">
+      <Filter>svg</Filter>
+    </None>
+    <None Include="svg\gimp-tool-unified-transform-symbolic.svg">
+      <Filter>svg</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="photol.rc">
+      <Filter>cv</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

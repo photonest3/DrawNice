@@ -1,0 +1,33 @@
+﻿  Building Custom Rule E:/voy/102/third/lunasvg-master/CMakeLists.txt
+  lunasvg.cpp
+  element.cpp
+  property.cpp
+  parser.cpp
+  layoutcontext.cpp
+  canvas.cpp
+  clippathelement.cpp
+  defselement.cpp
+  gelement.cpp
+  geometryelement.cpp
+  graphicselement.cpp
+  maskelement.cpp
+  markerelement.cpp
+  paintelement.cpp
+  stopelement.cpp
+  styledelement.cpp
+  styleelement.cpp
+  svgelement.cpp
+  symbolelement.cpp
+  useelement.cpp
+  Generating Code...
+  sw_ft_math.c
+  sw_ft_raster.c
+  sw_ft_stroker.c
+  plutovg.c
+  plutovg-paint.c
+  plutovg-geometry.c
+  plutovg-blend.c
+  plutovg-rle.c
+  plutovg-dash.c
+  Generating Code...
+  lunasvg.vcxproj -> E:\voy\102\third\lunasvg-master\build_vs2019_x64\Release\lunasvg.lib

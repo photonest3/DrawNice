@@ -201,7 +201,7 @@ This project is open-sourced under the MIT License. See the LICENSE file for det
 
 ```
 **请注意：**
-1.  请将代码中的 `your-username` 和 `https://github.com/your-username/DrawNice.git` 替换为你实际的 GitHub 用户名和仓库地址。
+1.  请将代码中的 `your-username` 和 `https://github.com/your-username/DrawNice.git` 替换为你实际的 GitHub 用户名和仓库地址photonest3。
 2.  [1](@ref) 到 [7](@ref) 的引用标记仅用于在 README 中注明信息来源，在实际的 Markdown 文件中，它们是普通文字，不会影响显示。
 ```
 

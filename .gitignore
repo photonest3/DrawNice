@@ -1,0 +1,11 @@
+nul
+
+# ---- VSSTUDIO 参考/回退（opencv）下的大型构建产物与 IDE 缓存，不纳入版本库 ----
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/.vs/
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/*.ipch
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/AppPackages/
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/bin/
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/libcef.dll
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/*.msix
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/*.msixupload
+opencv/opencv-4.8.0_build_vs2019_x64/modules/**/*.appx
